@@ -1,0 +1,23 @@
+.voice{
+    transition: .7s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .talk-btn{
+        margin-top: 100px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        border: 0;
+        outline: 0;
+        background-color: rgba(0, 0, 0, 0.886);
+        color: white;
+        font-size: 13pt;
+        text-transform: uppercase;
+    }
+    .box{
+       margin-top: 150px;
+    }
+}
